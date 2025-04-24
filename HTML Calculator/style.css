@@ -1,0 +1,19 @@
+input{
+    margin: 10px;
+}
+
+#calcButton {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightgrey;
+}
+#calcButton:hover {
+    background-color: gray;
+    cursor: pointer; /* KALO!! KANEI TO CURSOR POINTER OTAN EISAI APO PANO.*/
+}
+
+span{
+    font-weight: bold;
+}

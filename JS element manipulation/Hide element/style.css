@@ -1,0 +1,34 @@
+body {
+	font-family: Arial;
+	text-align: center;
+}
+
+h1 {
+	color: red;
+}
+
+#rectangle {
+	padding: 1rem;
+	border: 5px solid black;
+	text-align: center;
+	margin: 0 auto; /*OUSIASTIKA CENTER APO ARISTERA KAI DEKSIA*/
+	width: 400px;
+	height: 200px;
+}
+
+button {
+	background-color: #6b139a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px; /* 4px PANO KAI KATO, 2px DEKSIA KAI ARISTERA!*/
+	cursor: pointer; /* KANEI TO KERSORA DEIKTH OTAN PAO PANO STO KOUMPI.*/
+}
+
+button:hover {
+	background-color: #762d9d;
+}
